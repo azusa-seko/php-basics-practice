@@ -32,9 +32,9 @@
 
     echo "小計:" . $subtotal . "円<br>";
 
-    echo "消費税(10%):" . $tax_amount . "円<br>";
+    echo "消費税(" . ($tax_rate * 100) . "%): " . $tax_amount . "円<br>";
 
-    echo "合計金額:" . $total . "円<br>";
+    echo "<strong>合計金額:" . $total . "円</strong><br>";
 
 
     ?>
